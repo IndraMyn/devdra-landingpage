@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+
+body {
+  background: #f5feff !important;
+  font-family: 'Alatsi', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Button */
+
+.btn-primary {
+  background: #5b5fd9 !important;
+  border-color: #5b5fd9 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-primary:hover {
+  background: #484cb5 !important;
+  border-color: #484cb5 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-primary:focus {
+  box-shadow: 0px 0px 0px 2px #5b5fd996 !important;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-outline-primary {
+  background: #ffffff !important;
+  border-color: #5b5fd9 !important;
+  color: #5b5fd9 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.btn-outline-primary:hover {
+  background: #5b5fd9 !important;
+  border-color: #5b5fd9 !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-primary:focus {
+  box-shadow: 0px 0px 0px 2px #5b5fd996 !important;
+}
+
+.primary-white {
+  color: #212121 !important;
+  background: #ffffff !important;
+  border-color: #c8c8c8 !important;
+}
+
+.primary-white:hover {
+  background: #5b5fd95b !important;
+  border-color: #5b5fd9 !important;
+  color: #ffffff !;
+}
+
+.primary-white:focus {
+  box-shadow: 0px 0px 0px 2px #5b5fd996 !important;
+}
+
+/* .btn-primary-3d {
+  background: #5b5fd9 !important;
+  border-color: #5b5fd9 !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 0px 1px  #149966 !important;
+} */
+
+@keyframes push-effect {
+  from { 
+    box-shadow: 0 2px 0px 1px  #149966;
   }
   to {
-    transform: rotate(360deg);
+    box-shadow: none;
   }
 }
