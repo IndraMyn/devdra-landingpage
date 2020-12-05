@@ -1,23 +1,25 @@
 import React from 'react'
-import { Container, Row, Col } from 'reactstrap'
-import CardConstructionComponent from '../Components/CardConstuctionComponent'
 import BannerSection from '../Sections/HomeSection/BannerSection'
+import ContactSection from '../Sections/HomeSection/ContactSection'
+import IntroductionSection from '../Sections/HomeSection/IntroductionSection'
+import OurProductSection from '../Sections/HomeSection/OurProductSection'
 
 function HomePage(props) {
     return(
         <>
-            <section className="mt-5 mb-5" style={{background: '#7579e7'}}>
+            <section className="mt-5 mb-5">
                 <BannerSection />
             </section>
-            <hr />
-            <section>
-                <Container>
-                    <Row>
-                        <Col xs="12" lg="12">
-                            <CardConstructionComponent />
-                        </Col>
-                    </Row>
-                </Container>
+            <section className="mb-5">
+                <IntroductionSection />
+            </section>
+            <section className="mb-5" style={{background: '#f8f8ff'}}>
+                <hr />
+                <OurProductSection />
+            </section>
+            <section className="mb-3" style={{background: '#F0FFFF'}}>
+                <hr />
+                <ContactSection />
             </section>
         </>
     )

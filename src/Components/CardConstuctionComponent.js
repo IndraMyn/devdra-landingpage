@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row, Col, Card, CardBody, FormGroup } from 'reactstrap'
-import Illustration from '../Assets/construction.svg'
+import Illustration from '../Assets/Illustrations/construction.svg'
 
 function CardConstructionComponent(props) {
     return(
@@ -17,7 +17,7 @@ function CardConstructionComponent(props) {
                     <Row>
                         <Col xs={{size: 6, offset: 3}} lg={{size: 6, offset: 3}}>
                             <FormGroup className="text-center">
-                                <img src={Illustration} className="img-fluid"/>
+                                <img src={Illustration} className="img-fluid" alt="illustration"/>
                             </FormGroup>
                         </Col>
                     </Row>

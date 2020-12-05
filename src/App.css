@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 body {
   background: #f5feff !important;
-  font-family: 'Alatsi', sans-serif;
+  font-family: 'Rubik', sans-serif !important;
 }
 
 /* Button */
@@ -22,7 +22,7 @@ body {
 }
 
 .btn-outline-primary {
-  background: #ffffff !important;
+  background: transparent !important;
   border-color: #5b5fd9 !important;
   color: #5b5fd9 !important;
 }
@@ -59,6 +59,50 @@ body {
   color: #ffffff !important;
   box-shadow: 0 2px 0px 1px  #149966 !important;
 } */
+
+
+/* Card */
+.card-effect {
+  bottom: 0px;
+  transition: bottom 0.3s;
+  box-shadow: 0px 0px 3px 0px #cecece;
+}
+.card-effect:hover {
+  animation: card-effect normal 0.5s;
+  background: #9ab3f5;
+  color: #ffffff;
+  bottom: 5px;
+  box-shadow: 0px 0px 10px 0px #cecece;
+  transition: bottom 0.3s;
+}
+
+.card-effect img:hover {
+  animation: card-effect-img 1.2s;
+}
+
+@keyframes card-effect-img {
+  0% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(20deg);
+  }
+  60% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes card-effect {
+  from {
+    background: #ffffff;
+  }
+  to {
+    background: #9ab3f5;
+  }
+}
 
 @keyframes push-effect {
   from { 
