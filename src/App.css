@@ -1,8 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 body {
-  background: #f5feff !important;
+  background: #ffffff !important;
   font-family: 'Rubik', sans-serif !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .loading-logo {
+    height: 40vmin;
+    pointer-events: none;
+    margin-top: 25%;
+    animation: loading-page-effect infinite 2s;
+  }
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .loading-logo {
+    height: 40vmin;
+    pointer-events: none;
+    margin-top: 25%;
+    animation: loading-page-effect infinite 2s;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .loading-logo {
+    height: 40vmin;
+    pointer-events: none;
+    margin-top: 25%;
+    animation: loading-page-effect infinite 2s;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .loading-logo {
+    height: 40vmin;
+    pointer-events: none;
+    margin-top: 10%;
+    animation: loading-page-effect infinite 2s;
+  }
+
+  .banner-illustration {
+    background-image: url('./Assets/Illustrations/main.svg') !important;
+    background-repeat: no-repeat !important;
+    background-position: 90% !important;
+    background-size: contain !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .loading-logo {
+    height: 40vmin;
+    pointer-events: none;
+    margin-top: 10%;
+    animation: loading-page-effect infinite 2s;
+  }
+
+  .banner-illustration {
+    background-image: url('./Assets/Illustrations/main.svg') !important;
+    background-repeat: no-repeat !important;
+    background-position: 90% !important;
+    background-size: contain !important;
+  }
+}
+
+.border-top-custom {
+  border-top: 4px dotted #5b5fd985;
 }
 
 /* Button */
@@ -60,19 +129,18 @@ body {
   box-shadow: 0 2px 0px 1px  #149966 !important;
 } */
 
-
 /* Card */
 .card-effect {
   bottom: 0px;
-  transition: bottom 0.3s;
-  box-shadow: 0px 0px 3px 0px #cecece;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: bottom 0.3s, box-shadow 0.5s;
 }
 .card-effect:hover {
   animation: card-effect normal 0.5s;
   background: #9ab3f5;
   color: #ffffff;
   bottom: 5px;
-  box-shadow: 0px 0px 10px 0px #cecece;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   transition: bottom 0.3s;
 }
 
@@ -112,3 +180,28 @@ body {
     box-shadow: none;
   }
 }
+
+@keyframes loading-page-effect {
+  /* 0% {
+    opacity: 0%;
+  }
+  25% {
+    opacity: 20%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  70% {
+    opacity: 70%;
+  }
+  100% {
+    opacity: 100%;
+  } */
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+

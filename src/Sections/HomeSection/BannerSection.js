@@ -7,22 +7,23 @@ function BannerSection(props) {
         <>
             <Container>
                 <Row>
-                    <Col xs="12" lg="6" className="mt-5 mb-5">
-                        <div className="mt-5">
-                            <FormGroup>
-                                <h1>Devdra</h1>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                </p>
-                            </FormGroup>
-                            <FormGroup>
-                                <Button color="primary" size="lg" className="mr-2">More</Button>
-                                <Button color="primary" size="lg" outline>More</Button>
-                            </FormGroup>
+                    <Col xs="12" lg="12" className="mt-5 mb-5">
+                        <div className="banner-illustration">
+                            <Row>
+                                <Col xs="12" lg="6" className="mt-5">
+                                    <FormGroup>
+                                        <h1>Devdra</h1>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        </p>
+                                    </FormGroup>
+                                    <FormGroup>
+                                        <Button color="primary" size="lg" className="mr-2">More</Button>
+                                        <Button color="primary" size="lg" outline>More</Button>
+                                    </FormGroup>
+                                </Col>
+                            </Row>
                         </div>
-                    </Col>
-                    <Col xs="12" lg={{size: 4, offset: 1}} className="mt-5 mb-5">
-                        <img src={Illustration} className="img-fluid" alt="illustration" />
                     </Col>
                 </Row>
             </Container>

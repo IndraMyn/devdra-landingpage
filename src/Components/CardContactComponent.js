@@ -18,7 +18,7 @@ function CardContactComponent(props) {
 
     return(
         <>
-            <Card className="border-0 shadow-sm">
+            <Card className="border-0 shadow-sm rounded-lg">
                 <CardBody>
                     <Row>
                         <Col xs="12" lg="6">

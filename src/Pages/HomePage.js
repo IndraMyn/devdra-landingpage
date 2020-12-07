@@ -10,15 +10,13 @@ function HomePage(props) {
             <section className="mt-5 mb-5">
                 <BannerSection />
             </section>
-            <section className="mb-5">
+            <section style={{background: '#FFFFFF'}} className="border-top-custom">
                 <IntroductionSection />
             </section>
-            <section className="mb-5" style={{background: '#f8f8ff'}}>
-                <hr />
+            <section style={{background: '#f8f8ff'}} className="border-top-custom">
                 <OurProductSection />
             </section>
-            <section className="mb-3" style={{background: '#F0FFFF'}}>
-                <hr />
+            <section style={{background: '#F0FFFF'}} className="border-top-custom">
                 <ContactSection />
             </section>
         </>

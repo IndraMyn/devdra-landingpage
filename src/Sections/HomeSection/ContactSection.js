@@ -8,11 +8,11 @@ function ContactSection(props) {
         <>
             <Container>
                 <Row>
-                    <Col xs="12" lg="6" className="mt-5 mt-lg-5">
+                    <Col xs="12" lg="6" className="mt-5 mt-lg-5 mb-5">
                         <p className="h1 text-center mb-2">Any Question?</p>
                         <img src={Illustration} className="img-fluid" />
                     </Col>
-                    <Col xs="12" lg="6" className="mt-0 mt-lg-5">
+                    <Col xs="12" lg="6" className="mt-0 mt-lg-5 mb-5">
                         <CardContactComponent />
                     </Col>
                 </Row>
