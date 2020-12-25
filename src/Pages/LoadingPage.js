@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../loading_logo.png'
+import Logo from '../logo.png'
 
 function LoadingPage(props) {
     return(

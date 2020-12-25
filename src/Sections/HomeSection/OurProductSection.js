@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import CardProductComponent from '../../Components/CardProductComponent'
 import Product1 from '../../logo.svg'
+import Devfun from '../../Assets/Product/Devfun.svg'
 
 function OurProductSection(props) {
     return(
@@ -12,13 +13,13 @@ function OurProductSection(props) {
                         <p className="text-center h1">Our Products</p>
                     </Col>
                     <Col xs="12" lg="4" className="mb-3 mb-lg-5">
-                        <CardProductComponent name="Product 1" logo={Product1} />
+                        <CardProductComponent name="Soon!" logo={Product1} />
                     </Col>
                     <Col xs="12" lg="4" className="mb-3 mb-lg-5">
-                        <CardProductComponent name="Product 1" logo={Product1} />
+                        <CardProductComponent name="Defvun" logo={Devfun} />
                     </Col>
                     <Col xs="12" lg="4" className="mb-3 mb-lg-5">
-                        <CardProductComponent name="Product 1" logo={Product1} />
+                        <CardProductComponent name="Soon!" logo={Product1} />
                     </Col>
                 </Row>
             </Container>

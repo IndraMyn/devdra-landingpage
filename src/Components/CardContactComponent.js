@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Row, Col, Card, CardBody, Label, FormGroup, CustomInput, Form, Input, Button } from 'reactstrap'
+import { Row, Col, Card, CardBody, Label, FormGroup, CustomInput, Form, Input, Button, InputGroup, InputGroupAddon } from 'reactstrap'
 import { faTelegram, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
@@ -48,7 +48,7 @@ function CardContactComponent(props) {
                         </p>
                     </FormGroup>
                     <hr />
-                    <Form inline>
+                    <Form inline className="mb-3">
                         <FormGroup className="mr-3">
                             <CustomInput type="radio" id="whatsapp" name="custom-contact" label={<div className="h5" style={{color: '#25d366'}}><FontAwesomeIcon icon={faWhatsapp} /> Whatsapp</div>} size="lg" onChange={e => setVia(e.target.id)} checked={via === 'whatsapp' ? true : false} />
                         </FormGroup>
@@ -56,14 +56,19 @@ function CardContactComponent(props) {
                             <CustomInput type="radio" id="telegram" name="custom-contact" label={<div className="h5" style={{color: '#0088cc'}}><FontAwesomeIcon icon={faTelegram} /> Telegram</div>} size="lg" onChange={e => setVia(e.target.id)} />
                         </FormGroup>
                     </Form>
-                    <FormGroup className="mt-2">
-                        <Input type="text" value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Hello There!" bsSize="lg" />
-                    </FormGroup>
-                    <FormGroup>
-                        <a href={contactLink} target="_blank" rel="noopener noreferrer">
-                            <Button style={styleButton} >Send</Button>
-                        </a>
-                    </FormGroup>
+                    <Form onSubmit={(e) => {
+                        e.preventDefault()
+                        window.open(contactLink, '_blank')
+                    }}>
+                        <FormGroup>
+                            <InputGroup>
+                                <Input type="text" value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Hello There!" bsSize="lg" />
+                                <InputGroupAddon addonType="append">
+                                    <Button type="submit" style={styleButton} size="lg">Send</Button>
+                                </InputGroupAddon>
+                            </InputGroup>
+                        </FormGroup>
+                    </Form>
                 </CardBody>
             </Card>
         </>
