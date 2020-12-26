@@ -16,7 +16,7 @@ function HomePage(props) {
             <section style={{background: '#f8f8ff'}} className="border-top-custom" id="products">
                 <OurProductSection />
             </section>
-            <section style={{background: '#F0FFFF'}} className="border-top-custom" id="contact">
+            <section style={{background: '#5b5fd9'}}  id="contact">
                 <ContactSection />
             </section>
         </>

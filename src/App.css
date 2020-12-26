@@ -50,7 +50,7 @@ body {
   }
 
   .banner-illustration {
-    background-image: url('./Assets/Illustrations/main.svg') !important;
+    background-image: url('./logo.svg') !important;
     background-repeat: no-repeat !important;
     background-position: 90% !important;
     background-size: contain !important;
@@ -70,7 +70,7 @@ body {
   }
 
   .banner-illustration {
-    background-image: url('./Assets/Illustrations/main.svg') !important;
+    background-image: url('./logo.svg') !important;
     background-repeat: no-repeat !important;
     background-position: 90% !important;
     background-size: contain !important;
