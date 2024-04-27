@@ -1,138 +1,488 @@
-import React from 'react'
-import { Col, Container, Row } from 'reactstrap'
+import React from "react";
+import { Col, Container, Row } from "reactstrap";
 
 function TermsPage(props) {
-    return(
-        <>  
-            <section className="mt-5">
-                <Container>
-                    <Row>
-                        <Col xs="12" lg="12" className="mt-5 mb-5">
-                        <h2><strong>Terms and Conditions</strong></h2>
+	return (
+		<>
+			<section className="mt-5">
+				<Container>
+					<Row>
+						<Col xs="12" lg="12" className="mt-5 mb-5">
+							<div style={{ marginBottom: 40 }}>
+								<h1>Terms and Conditions</h1>
+								<p>
+									<strong>Last Modified:</strong>&nbsp; April
+									20, 2024
+								</p>
+							</div>
+							<p>Welcome to Devdra!</p>
 
-                            <p>Welcome to Devdra!</p>
+							<p>
+								These terms and conditions outline the rules and
+								regulations for the use of Devdra's Website,
+								located at https://devdra.com.
+							</p>
 
-                            <p>These terms and conditions outline the rules and regulations for the use of Devdra's Website, located at https://devdra.com.</p>
+							<p>
+								By accessing this website we assume you accept
+								these terms and conditions. Do not continue to
+								use Devdra if you do not agree to take all of
+								the terms and conditions stated on this page.
+							</p>
 
-                            <p>By accessing this website we assume you accept these terms and conditions. Do not continue to use Devdra if you do not agree to take all of the terms and conditions stated on this page.</p>
+							<p>
+								The following terminology applies to these Terms
+								and Conditions, Privacy Statement and Disclaimer
+								Notice and all Agreements: "Client", "You" and
+								"Your" refers to you, the person log on this
+								website and compliant to the Company’s terms and
+								conditions. "The Company", "Ourselves", "We",
+								"Our" and "Us", refers to our Company. "Party",
+								"Parties", or "Us", refers to both the Client
+								and ourselves. All terms refer to the offer,
+								acceptance and consideration of payment
+								necessary to undertake the process of our
+								assistance to the Client in the most appropriate
+								manner for the express purpose of meeting the
+								Client’s needs in respect of provision of the
+								Company’s stated services, in accordance with
+								and subject to, prevailing law of Netherlands.
+								Any use of the above terminology or other words
+								in the singular, plural, capitalization and/or
+								he/she or they, are taken as interchangeable and
+								therefore as referring to same.
+							</p>
 
-                            <p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Company’s terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.</p>
+							<div>
+								<h1>Accepting the Terms of Service</h1>
+								<p>
+									The purpose of this website,{" "}
+									<strong>Devdra.com</strong> (the “Site”), is
+									to provide web publishing services. Please
+									read these terms of service (“Agreement”)
+									carefully before using the Site or any
+									services provided on the Site (collectively,
+									“Services”). By using or accessing the
+									Services, you agree to become bound by all
+									the terms and conditions of this Agreement.
+									If you do not agree to all the terms and
+									conditions of this Agreement, do not use the
+									Services. The Services are accessed by You
+									(“Subscriber” or “You”) under the following
+									terms and conditions:
+								</p>
+								<h2>1. Access to the Services</h2>
+								<p>
+									Subject to the terms and conditions of this
+									Agreement, <strong>Devdra</strong> may offer
+									to provide the Services, as described more
+									fully on the Site, and which are selected by
+									Subscriber, solely for Subscriber’s own use,
+									and not for the use or benefit of any third
+									party. Services shall include, but not be
+									limited to, any services{" "}
+									<strong>Devdra</strong> performs for
+									Subscriber, as well as the offering of any
+									Content (as defined below) on the Site.
+									<strong>Devdra</strong> may change, suspend
+									or discontinue the Services at any time,
+									including the availability of any feature,
+									database, or Content.
+									<strong>Devdra</strong> may also impose
+									limits on certain features and services or
+									restrict Subscriber’s access to parts or all
+									of the Services without notice or liability.
+									<strong>Devdra</strong> reserves the right,
+									at its discretion, to modify these Terms of
+									Service at any time by posting revised Terms
+									of Service on the Site and by providing
+									notice via e-mail, where possible, or on the
+									Site. Subscriber shall be responsible for
+									reviewing and becoming familiar with any
+									such modifications. Use of the Services by
+									Subscriber following such modification
+									constitutes Subscriber's acceptance of the
+									terms and conditions of this Agreement as
+									modified.
+								</p>
+								<h2>2. Site Content</h2>
+								<p>
+									The Site and its contents are intended
+									solely for the use of{" "}
+									<strong>Devdra</strong> Subscribers and may
+									only be used in accordance with the terms of
+									this Agreement. All materials displayed or
+									performed on the Site, including, but not
+									limited to text, graphics, logos, tools,
+									photographs, images, illustrations, software
+									or source code, audio and video, animations
+									and Themes (as defined below), including
+									without limitation the{" "}
+									<strong>Devdra</strong> Template Code (as
+									defined below) (collectively, “Content”)
+									(other than Content posted by Subscriber
+									(“Subscriber Content”)) are the property of{" "}
+									<strong>Devdra</strong> and/or third parties
+									and are protected. The{" "}
+									<strong>Devdra</strong> API shall be used
+									solely pursuant to the terms of the API
+									Terms of Service. All trademarks, service
+									marks, and trade names are proprietary to{" "}
+									<strong>Devdra</strong> and/or third
+									parties. Subscriber shall abide by all
+									copyright notices, information, and
+									restrictions contained in any Content
+									accessed through the Services.
+								</p>
+								<h2>3. Subscriber Content</h2>
+								<p>
+									Subscriber shall own all Subscriber Content
+									that Subscriber contributes to the Site, but
+									hereby grants and agrees to grant{" "}
+									<strong>Devdra</strong> a non-exclusive,
+									worldwide, royalty-free, transferable right
+									and license (with the right to sublicense),
+									to use, copy, cache, publish, display,
+									distribute, modify, create derivative works
+									and store such Subscriber Content and to
+									allow others to do so (“Content License”) in
+									order to provide the Services. On
+									termination of Subscriber’s membership to
+									the Site and use of the Services,{" "}
+									<strong>Devdra</strong> shall make all
+									reasonable efforts to promptly remove from
+									the Site and cease use of the Subscriber
+									Content; however, Subscriber recognizes and
+									agrees that caching of or references to the
+									Subscriber Content may not be immediately
+									removed. Subscriber warrants, represents and
+									agrees Subscriber has the right to grant{" "}
+									<strong>Devdra</strong> and the Site the
+									rights set forth above. Subscriber
+									represents, warrants and agrees that it will
+									not contribute any Subscriber Content that:
+									(a) infringes, violates or otherwise
+									interferes with any copyright or trademark
+									of another party, (b) reveals any trade
+									secret, unless Subscriber owns the trade
+									secret or has the owner’s permission to post
+									it, (c) infringes any intellectual property
+									right of another or the privacy or publicity
+									rights of another, (d) is libelous,
+									defamatory, abusive, threatening, harassing,
+									hateful, offensive or otherwise violates any
+									law or right of any third party, (e)
+									contains a virus, trojan horse, worm, time
+									bomb or other computer programming routine
+									or engine that is intended to damage,
+									detrimentally interfere with,
+									surreptitiously intercept or expropriate any
+									system, data or information, or (f) remains
+									posted after Subscriber has been notified
+									that such Subscriber Content violates any of
+									sections (a) to (e) of this sentence.
+									<strong>Devdra</strong> reserves the right
+									to remove any Subscriber Content from the
+									Site, suspend or terminate Subscriber’s
+									right to use the Services at any time, or
+									pursue any other remedy or relief available
+									to <strong>Devdra</strong> and/or the Site
+									under equity or law, for any reason
+									(including, but not limited to, upon receipt
+									of claims or allegations from third parties
+									or authorities relating to such Subscriber
+									Content or if <strong>Devdra</strong> is
+									concerned that Subscriber may have breached
+									the immediately preceding sentence), or for
+									no reason at all.
+								</p>
+								<h2>4. Restrictions</h2>
+								<p>
+									Subscriber is responsible for all of its
+									activity in connection with the Services and
+									accessing the Site. Any fraudulent, abusive,
+									or otherwise illegal activity or any use of
+									the Services or Content in violation of this
+									Agreement may be grounds for termination of
+									Subscriber’s right to Services or to access
+									the Site. Subscriber may not post or
+									transmit, or cause to be posted or
+									transmitted, any communication or
+									solicitation designed or intended to obtain
+									password, account, or private information
+									from any <strong>Devdra</strong> user. Use
+									of the Site or Services to violate the
+									security of any computer network, crack
+									passwords or security encryption codes,
+									transfer or store illegal material including
+									that are deemed threatening or obscene, or
+									engage in any kind of illegal activity is
+									expressly prohibited. Under no circumstances
+									will Subscriber use the Site or the Service
+									to (a) send unsolicited e-mails, bulk mail,
+									spam or other materials to users of the Site
+									or any other individual, (b) harass,
+									threaten, stalk or abuse any person or
+									party, including other users of the Site,
+									(c) create a false identity or to
+									impersonate another person, or (d) post any
+									false, inaccurate or incomplete material or
+									delete or revise any material that was not
+									posted by You.
+								</p>
+								<h2>5. Warranty disclaimer</h2>
+								<p>
+									<strong>Devdra</strong> has no special
+									relationship with or fiduciary duty to
+									Subscriber. Subscriber acknowledges that{" "}
+									<strong>Devdra</strong> has no control over,
+									and no duty to take any action regarding:
+									which users gain access to the Site; which
+									Content Subscriber accesses via the Site;
+									what effects the Content may have on
+									Subscriber; how Subscriber may interpret or
+									use the Content; or what actions Subscriber
+									may take as a result of having been exposed
+									to the Content. Much of the Content of the
+									Site is provided by and is the
+									responsibility of the user or subscriber who
+									posted the Content.
+									<strong>Devdra</strong> does not monitor the
+									Content of the Site and takes no
+									responsibility for such Content. Subscriber
+									releases <strong>Devdra</strong> from all
+									liability for Subscriber having acquired or
+									not acquired Content through the Site. The
+									Site may contain, or direct Subscriber to
+									sites containing, information that some
+									people may find offensive or inappropriate.
+									<strong>Devdra</strong> makes no
+									representations concerning any content
+									contained in or accessed through the Site,
+									and <strong>Devdra</strong> will not be
+									responsible or liable for the accuracy,
+									copyright compliance, legality or decency of
+									material contained in or accessed through
+									the Site.
+								</p>
 
-                            <h3><strong>Cookies</strong></h3>
+								<h2>6. Third party websites</h2>
+								<p>
+									Users of the Site may gain access from the
+									Site to third party sites on the Internet
+									through hypertext or other computer links on
+									the Site. Third-party sites are not within
+									the supervision or control of{" "}
+									<strong>Devdra</strong> or the Site. Unless
+									explicitly otherwise provided, neither{" "}
+									<strong>Devdra</strong> nor the Site makes
+									any representation or warranty whatsoever
+									about any third-party site that is linked to
+									the Site, or endorse the products or
+									services offered on such a site.
+									<strong>Devdra</strong> and the Site
+									disclaim: (a) all responsibility and
+									liability for content on third-party
+									websites and (b) any representations or
+									warranties as to the security of any
+									information (including, without limitation,
+									credit card and other personal information)
+									You might be requested to give any third
+									party, and You hereby irrevocably waive any
+									claim against the Site or{" "}
+									<strong>Devdra</strong> with respect to such
+									sites and third party content.
+								</p>
 
-                            <p>We employ the use of cookies. By accessing Devdra, you agreed to use cookies in agreement with the Devdra's Privacy Policy.</p>
+								<h2>7. Registration and security</h2>
+								<p>
+									As a condition to using Services, Subscriber
+									will be required to register with{" "}
+									<strong>Devdra</strong> and select a
+									password and <strong>Devdra</strong> URL.
+									Subscriber shall provide{" "}
+									<strong>Devdra</strong> with accurate,
+									complete, and updated registration
+									information, including Subscriber’s e-mail
+									address. Failure to do so shall constitute a
+									breach of this Agreement, which may result
+									in the immediate termination of Subscriber’s
+									account. Subscriber may not: (a) select or
+									use as a <strong>Devdra</strong> URL a name
+									of another person with the intent to
+									impersonate that person; or (b) use as a{" "}
+									<strong>Devdra</strong> URL a name subject
+									to any rights of a person other than
+									Subscriber without appropriate
+									authorization.
+									<strong>Devdra</strong> reserves the right
+									to refuse registration of, or cancel a{" "}
+									<strong>Devdra</strong> URL in its
+									discretion. Subscriber shall be responsible
+									for maintaining the confidentiality of
+									Subscriber’s <strong>Devdra</strong>{" "}
+									password. Subscriber is solely responsible
+									for any use of or action taken under
+									Subscriber’s password and accepts full
+									responsibility for all activity conducted
+									through Subscriber’s account and agrees to
+									and hereby releases the Site and{" "}
+									<strong>Devdra</strong> from any and all
+									liability concerning such activity.
+									Subscriber agrees to notify{" "}
+									<strong>Devdra</strong> immediately of any
+									actual or suspected loss, theft, or
+									unauthorized use of Subscriber’s account or
+									password. The Site will take reasonable
+									security precautions when using the
+									internet, telephone, or other means to
+									transport data or other communications, but
+									expressly disclaims any and all liability
+									for the accessing of any such data
+									communications by unauthorized persons or
+									entities.
+								</p>
+								<h2>8. Indemnity</h2>
+								<p>
+									Subscriber will indemnify and hold{" "}
+									<strong>Devdra</strong>, its directors,
+									officers, and employees, harmless, including
+									costs and attorneys fees, from any claim or
+									demand made by any third party due to or
+									arising out of Subscriber’s access to the
+									Site, use of the Services, the violation of
+									this Agreement by Subscriber, or the
+									infringement by Subscriber, or any third
+									party using the Subscriber's account, of any
+									intellectual property or other right of any
+									person or entity.
+								</p>
 
-                            <p>Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p>
+								<h2>9. Limitation of liability</h2>
+								<p>
+									In no event shall <strong>Devdra</strong>,
+									its directors, officers, shareholders,
+									employees, or members be liable with respect
+									to the Site or the Services for: (a) any
+									indirect, incidental, punitive, or
+									consequential damages of any kind
+									whatsoever; (b) damages for loss of use,
+									profits, data, images, Subscriber Content,
+									or other intangibles; (c) damages for
+									unauthorized use, non-performance of the
+									Site, errors, or omissions; or (d) damages
+									related to downloading or posting Content.
+									<strong>Devdra</strong> and the Site's
+									collective liability under this agreement
+									shall be limited to three hundred U.S.
+									Dollars. Some places do not allow the
+									exclusion or limitation of incidental or
+									consequential damages, so the above
+									limitations and exclusions may not apply to
+									Subscriber.
+								</p>
 
-                            <h3><strong>License</strong></h3>
+								<h2>10. Fees and payment</h2>
+								<p>
+									<strong>Devdra</strong> may change its
+									prices at any time but will provide you
+									reasonable notice of any such changes by
+									posting the new prices on the Site and by
+									sending you email notification. If you do
+									not wish to pay the new prices, you may
+									cancel the services prior to the change
+									going into effect.
+								</p>
 
-                            <p>Unless otherwise stated, Devdra and/or its licensors own the intellectual property rights for all material on Devdra. All intellectual property rights are reserved. You may access this from Devdra for your own personal use subjected to restrictions set in these terms and conditions.</p>
+								<h2>11. Termination</h2>
+								<p>
+									Either party may terminate the Services at
+									any time by notifying the other party by any
+									means.
+									<strong>Devdra</strong> may also terminate
+									or suspend any and all Services and access
+									to the Site immediately, without prior
+									notice or liability, if Subscriber breaches
+									any of the terms or conditions of this
+									Agreement. Upon termination of Subscriber’s
+									account, Subscriber’s right to use the
+									Services, access the Site, and any Content
+									will immediately cease. All provisions of
+									this Agreement which by their nature should
+									survive termination shall survive
+									termination, including, without limitation,
+									ownership provisions, warranty disclaimers,
+									and limitations of liability. Termination of
+									Your access to and use of the Site and the
+									Services shall not relieve Subscriber of any
+									obligations arising or accruing prior to
+									such termination or limit any liability
+									which Subscriber otherwise may have to{" "}
+									<strong>Devdra</strong> or the Site,
+									including without limitation any
+									indemnification obligations contained
+									herein.
+								</p>
 
-                            <p>You must not:</p>
-                            <ul>
-                                <li>Republish material from Devdra</li>
-                                <li>Sell, rent or sub-license material from Devdra</li>
-                                <li>Reproduce, duplicate or copy material from Devdra</li>
-                                <li>Redistribute content from Devdra</li>
-                            </ul>
+								<h2>12. Privacy</h2>
+								<p>
+									Please review our Privacy Policy, which
+									governs the use of personal information on
+									the Site and to which Subscriber agrees to
+									be bound as a user of the Site.
+								</p>
 
-                            <p>This Agreement shall begin on the date hereof.</p>
-
-                            <p>Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. Devdra does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Devdra,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, Devdra shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.</p>
-
-                            <p>Devdra reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.</p>
-
-                            <p>You warrant and represent that:</p>
-
-                            <ul>
-                                <li>You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;</li>
-                                <li>The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;</li>
-                                <li>The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy</li>
-                                <li>The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.</li>
-                            </ul>
-
-                            <p>You hereby grant Devdra a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.</p>
-
-                            <h3><strong>Hyperlinking to our Content</strong></h3>
-
-                            <p>The following organizations may link to our Website without prior written approval:</p>
-
-                            <ul>
-                                <li>Government agencies;</li>
-                                <li>Search engines;</li>
-                                <li>News organizations;</li>
-                                <li>Online directory distributors may link to our Website in the same manner as they hyperlink to the Websites of other listed businesses; and</li>
-                                <li>System wide Accredited Businesses except soliciting non-profit organizations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.</li>
-                            </ul>
-
-                            <p>These organizations may link to our home page, to publications or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products and/or services; and (c) fits within the context of the linking party’s site.</p>
-
-                            <p>We may consider and approve other link requests from the following types of organizations:</p>
-
-                            <ul>
-                                <li>commonly-known consumer and/or business information sources;</li>
-                                <li>dot.com community sites;</li>
-                                <li>associations or other groups representing charities;</li>
-                                <li>online directory distributors;</li>
-                                <li>internet portals;</li>
-                                <li>accounting, law and consulting firms; and</li>
-                                <li>educational institutions and trade associations.</li>
-                            </ul>
-
-                            <p>We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of Devdra; and (d) the link is in the context of general resource information.</p>
-
-                            <p>These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party’s site.</p>
-
-                            <p>If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to Devdra. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.</p>
-
-                            <p>Approved organizations may hyperlink to our Website as follows:</p>
-
-                            <ul>
-                                <li>By use of our corporate name; or</li>
-                                <li>By use of the uniform resource locator being linked to; or</li>
-                                <li>By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party’s site.</li>
-                            </ul>
-
-                            <p>No use of Devdra's logo or other artwork will be allowed for linking absent a trademark license agreement.</p>
-
-                            <h3><strong>iFrames</strong></h3>
-
-                            <p>Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our Website.</p>
-
-                            <h3><strong>Content Liability</strong></h3>
-
-                            <p>We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.</p>
-
-                            <h3><strong>Reservation of Rights</strong></h3>
-
-                            <p>We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it’s linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.</p>
-
-                            <h3><strong>Removal of links from our website</strong></h3>
-
-                            <p>If you find any link on our Website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.</p>
-
-                            <p>We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.</p>
-
-                            <h3><strong>Disclaimer</strong></h3>
-
-                            <p>To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:</p>
-
-                            <ul>
-                                <li>limit or exclude our or your liability for death or personal injury;</li>
-                                <li>limit or exclude our or your liability for fraud or fraudulent misrepresentation;</li>
-                                <li>limit any of our or your liabilities in any way that is not permitted under applicable law; or</li>
-                                <li>exclude any of our or your liabilities that may not be excluded under applicable law.</li>
-                            </ul>
-
-                            <p>The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.</p>
-
-                            <p>As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</p>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-        </>
-    )
+								<h2>13. Miscellaneous</h2>
+								<p>
+									This Agreement (including the Privacy
+									Policy), as modified from time to time,
+									constitutes the entire agreement between
+									You, the Site, and <strong>Devdra</strong>{" "}
+									with respect to the subject matter hereof.
+									This Agreement replaces all prior or
+									contemporaneous understandings or
+									agreements, written or oral, regarding the
+									subject matter hereof. The failure of either
+									party to exercise in any respect any right
+									provided for herein shall not be deemed a
+									waiver of any further rights hereunder.
+									<strong>Devdra</strong> shall not be liable
+									for any failure to perform its obligations
+									hereunder where such failure results from
+									any cause beyond <strong>Devdra</strong>’s
+									reasonable control, including, without
+									limitation, mechanical, electronic, or
+									communications failure or degradation. If
+									any provision of this Agreement is found to
+									be unenforceable or invalid, that provision
+									shall be limited or eliminated to the
+									minimum extent necessary so that this
+									Agreement shall otherwise remain in full
+									force and effect and enforceable. This
+									Agreement is not assignable, transferable or
+									sublicensable by Subscriber except with{" "}
+									<strong>Devdra</strong>’s prior written
+									consent.
+									<strong>Devdra</strong> may assign this
+									Agreement in whole or in part at any time
+									without Subscriber’s consent. This Agreement
+									shall be governed by and construed in
+									accordance with the laws of the state of
+									Delaware without regard to the conflict of
+									laws provisions thereof. No agency,
+									partnership, joint venture, or employment is
+									created as a result of this Agreement and
+									Subscriber does not have any authority of
+									any kind to bind <strong>Devdra</strong> in
+									any respect whatsoever.
+								</p>
+							</div>
+						</Col>
+					</Row>
+				</Container>
+			</section>
+		</>
+	);
 }
 
-export default TermsPage
+export default TermsPage;

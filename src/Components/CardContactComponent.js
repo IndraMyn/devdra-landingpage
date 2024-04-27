@@ -27,27 +27,27 @@ function CardContactComponent(props) {
                                 <p>cs@devdra.com</p>
                             </FormGroup>
                         </Col>
-                        <Col xs="12" lg="6">
+                        {/* <Col xs="12" lg="6">
                             <FormGroup>
                                 <Label><FontAwesomeIcon icon={faPhone} className="fa-rotate-90" />  Phone</Label>
                                 <p>+62 88809419292</p>
                             </FormGroup>
-                        </Col>
+                        </Col> */}
                     </Row>
-                    <hr />
-                    <FormGroup>
+                    {/* <hr /> */}
+                    {/* <FormGroup>
                         <Label><FontAwesomeIcon icon={faWhatsapp} /> Whatsapp</Label>
                         <p>
                             <a className="text-dark" target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=6288809419292">+62 88809419292</a>
                         </p>
-                    </FormGroup>
-                    <FormGroup>
+                    </FormGroup> */}
+                    {/* <FormGroup>
                         <Label><FontAwesomeIcon icon={faTelegram} /> Telegram</Label>
                         <p>
                             <a className="text-dark" target="_blank" rel="noopener noreferrer" href="https://t.me/IndraMyn07">@IndraMyn07</a>
                         </p>
-                    </FormGroup>
-                    <hr />
+                    </FormGroup> */}
+                    {/* <hr />
                     <Form inline className="mb-3">
                         <FormGroup className="mr-3">
                             <CustomInput type="radio" id="whatsapp" name="custom-contact" label={<div className="h5" style={{color: '#25d366'}}><FontAwesomeIcon icon={faWhatsapp} /> Whatsapp</div>} size="lg" onChange={e => setVia(e.target.id)} checked={via === 'whatsapp' ? true : false} />
@@ -68,7 +68,7 @@ function CardContactComponent(props) {
                                 </InputGroupAddon>
                             </InputGroup>
                         </FormGroup>
-                    </Form>
+                    </Form> */}
                 </CardBody>
             </Card>
         </>

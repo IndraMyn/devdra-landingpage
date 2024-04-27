@@ -23,9 +23,6 @@ function FooterPartial(props) {
                                 <FormGroup>
                                     <Label className="text-white"><FontAwesomeIcon icon={faEnvelope} /> &nbsp; cs@devdra.com</Label>
                                 </FormGroup>
-                                <FormGroup>
-                                    <Label className="text-white"><FontAwesomeIcon icon={faPhone} className="fa-rotate-90" /> &nbsp; +62 88809419292</Label>
-                                </FormGroup>
                             </Col>
                             <Col xs="6" lg="4" className="mb-3">
                                 <Label className="h5 text-white">Follow Us</Label>
@@ -38,6 +35,7 @@ function FooterPartial(props) {
                                     <hr className="bg-light" />
                                     <li className="mb-3"><Link className="text-white text-decoration-none" to="/privacy-policy">Privacy</Link></li>
                                     <li className="mb-3"><Link className="text-white text-decoration-none" to="/terms">Terms</Link></li>
+                                    <li className="mb-3"><Link className="text-white text-decoration-none" to="/copyright">Copyright</Link></li>
                                     <li className="mb-3"><Link className="text-white text-decoration-none" to="/disclaimer">Disclaimer</Link></li>
                                 </div>
                             </Col>

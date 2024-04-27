@@ -15,8 +15,8 @@ function OurProductSection(props) {
                     <Col xs="12" lg="4" className="mb-3 mb-lg-5">
                         <CardProductComponent name="Soon!" logo={Product1} />
                     </Col>
-                    <Col xs="12" lg="4" className="mb-3 mb-lg-5" onClick={() => window.open('https://fun.devdra.com', '_blank')}>
-                        <CardProductComponent name="Defvun" logo={Devfun} />
+                    <Col xs="12" lg="4" className="mb-3 mb-lg-5" onClick={() => window.open('https://Devdra.com', '_blank')}>
+                        <CardProductComponent name="Devdra" logo={Devfun} />
                     </Col>
                     <Col xs="12" lg="4" className="mb-3 mb-lg-5">
                         <CardProductComponent name="Soon!" logo={Product1} />

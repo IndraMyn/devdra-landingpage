@@ -9,6 +9,7 @@ const HomePage          = lazy(() => import('./Pages/HomePage'))
 const PrivacyPage       = lazy(() => import('./Pages/PrivacyPage'))
 const DisclaimerPage    = lazy(() => import('./Pages/DisclaimerPage'))
 const TermsPage         = lazy(() => import('./Pages/TermsPage'))
+const CopyrightPage     = lazy(() => import('./Pages/CopyrightPage'))
 const NotFoundPage      = lazy(() => import('./Pages/NotFoundPage'))
 
 function App(props) {
@@ -22,6 +23,7 @@ function App(props) {
                         <Route path='/privacy-policy' component={PrivacyPage} />
                         <Route path='/disclaimer' component={DisclaimerPage} />
                         <Route path='/terms' component={TermsPage} />
+                        <Route path='/copyright' component={CopyrightPage} />
                         <Route component={NotFoundPage} />
                     </Switch>
                     <FooterPartial />
